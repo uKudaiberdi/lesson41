@@ -50,12 +50,9 @@ public class Main {
 
         }
         System.out.println(listC);
-        {
-
-        }
-    }
-
-    {
+        Collections.sort(listC, new LengthFirstComparator());
+        System.out.println(listC);
 
     }
+
 }
